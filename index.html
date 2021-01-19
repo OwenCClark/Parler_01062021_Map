@@ -38,7 +38,7 @@
             minZoom: 7
         }).addTo(map);
 
-        $.get('./parler-videos-geocoded-date.csv', function(csvString) {
+        $.get('./parler-videos-geocoded-01062021.csv', function(csvString) {
 
             // Use PapaParse to convert string to array of objects
             var data = Papa.parse(csvString, {
