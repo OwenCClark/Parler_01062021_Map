@@ -53,8 +53,7 @@
                 var popup_info = (row.ID +
                     '<br/>' + row.Latitude + ', ' + row.Longitude +
                     '<br/>' + row.Timestamp +
-                    '<br/>' + "<a target='_blank' href='https://www.tommycarstensen.com/terrorism/" + row.ID + ".mp4'>tommycarstensen Video Link</a>" +
-                    '<br/>' + "<a target='_blank' href='https://parlervid.herokuapp.com/" + row.ID + "'>herokuapp Video Link</a>");
+                    '<br/>' + "<a target='_blank' href='https://www.tommycarstensen.com/terrorism/" + row.ID + ".mp4'>Video Link</a>");
                 var marker = L.circle([row.Latitude, row.Longitude], {
                     color: "red",
                     fillOpacity: 1,
